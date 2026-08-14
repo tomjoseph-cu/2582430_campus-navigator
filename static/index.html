@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Navigator — Northbrook University</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">&#128506;</span>
+      <div>
+        <h1>Campus Navigator</h1>
+        <p id="campus-name">Northbrook University</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <span id="live-pill" class="pill live">&#9679; Live</span>
+      <span id="ai-pill" class="pill ai">AI: &hellip;</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="map-panel">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <input id="search-input" type="text" placeholder="Search classrooms, labs, offices, lots, venues&hellip;"
+                 autocomplete="off" />
+          <div id="search-results" class="dropdown hidden"></div>
+        </div>
+        <div class="toolbar-actions">
+          <button id="set-location-btn" class="btn">&#128205; Set my location</button>
+          <button id="reset-view-btn" class="btn ghost">Reset</button>
+        </div>
+      </div>
+
+      <div id="map-wrap" class="map-wrap">
+        <svg id="campus-map" viewBox="0 0 1000 760" preserveAspectRatio="xMidYMid meet"></svg>
+        <div id="map-hint" class="map-hint">Tap a place on the map to set a destination.</div>
+      </div>
+
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <aside class="chat-panel">
+      <div class="chat-head">
+        <span>AI Navigator</span>
+        <span id="origin-badge" class="origin-badge">From: Central Quad</span>
+      </div>
+      <div id="chat-messages" class="chat-messages"></div>
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <textarea id="chat-input" rows="1" placeholder="Ask e.g. 'How do I get to the Robotics Lab?'&hellip;"></textarea>
+        <button type="submit" class="send-btn" aria-label="Send">&#10148;</button>
+      </form>
+      <div class="suggestions" id="suggestions"></div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span id="footer-state">Connecting&hellip;</span>
+    <span class="spacer"></span>
+    <span>&copy; 2026 Campus Navigator</span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
