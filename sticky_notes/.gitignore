@@ -1,0 +1,6 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Generated outputs (models, plots, Word report) - regenerate via run_all.py
+outputs/

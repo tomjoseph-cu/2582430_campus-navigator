@@ -1,0 +1,83 @@
+word_count,sentence_count,avg_word_length,has_question,has_action_verb,has_decision,contains_date_or_deadline,keyword_density_action,keyword_density_stopword,ne_person,ne_date,ne_time,ne_email,positive_words,negative_words,speaker_same_as_prev,is_short_utterance,exclamation_count,caps_ratio,transcript_id,theme,speaker,text,label
+11,3,5.545454545454546,0,0,0,0,0.0,0.18181818181818182,1,0,0,0,0,0,0,0,0,0.056338028169014086,1,Project Sprint Planning,Dave,Yeah Like I noticed that this morning. Someone should call maintenance.,0
+16,2,3.9375,0,0,0,1,0.0,0.07142857142857142,0,0,0,0,0,0,0,0,0,0.02564102564102564,1,Project Sprint Planning,Bob,"Oh and by Like the way, the coffee machine on the third floor is broken again.",0
+7,2,4.714285714285714,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.02564102564102564,1,Project Sprint Planning,Alice,"Haha, that's the third time this month.",0
+11,2,4.454545454545454,0,1,0,0,0.18181818181818182,0.0,0,0,0,0,0,0,0,0,0,0.06779661016949153,1,Project Sprint Planning,Dave,Let's schedule a code review meeting for Wednesday at 3 PM.,1
+5,2,5.2,1,0,0,0,0.0,0.2,0,0,0,0,0,0,0,0,0,0.03333333333333333,1,Project Sprint Planning,Alice,So how was everyone's weekend?,0
+11,2,5.2727272727272725,0,0,0,0,0.0,0.09090909090909091,1,0,0,0,0,0,0,0,0,0.04411764705882353,1,Project Sprint Planning,Bob,"Pretty Like good, I watched that new movie everyone's talking about.",0
+10,2,4.7,0,1,0,0,0.1,0.0,0,0,0,0,0,0,1,0,0,0.10714285714285714,1,Project Sprint Planning,Bob,Action I mean item: create the CI/CD pipeline this week.,1
+6,2,4.166666666666667,1,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.03333333333333333,1,Project Sprint Planning,Dave,"Nice, where did you go hiking?",0
+11,3,4.0,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.05555555555555555,1,Project Sprint Planning,Carol,"Oh yeah, I heard it was great. I went hiking actually.",0
+11,2,4.363636363636363,0,1,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.05172413793103448,1,Project Sprint Planning,Dave,I will follow up with the DevOps team about server access.,1
+11,2,4.636363636363637,0,0,0,1,0.0,0.0,0,0,0,0,0,0,0,0,0,0.03278688524590164,1,Project Sprint Planning,Alice,"The deadline for the client demo is April 1st, no extensions.",1
+8,3,5.0,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.0425531914893617,1,Project Sprint Planning,Alice,"That sounds lovely. Anyway, back to the sprint.",0
+11,2,4.0,0,1,0,1,0.09090909090909091,0.0,1,1,0,0,0,0,1,0,0,0.1111111111111111,1,Project Sprint Planning,Alice,We need to finalize the API design by Friday March 15.,1
+11,2,3.727272727272727,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.0392156862745098,1,Project Sprint Planning,Bob,At least You know the one on the fifth floor works.,0
+11,2,5.090909090909091,0,1,0,0,0.0,0.09090909090909091,1,1,0,0,0,0,0,0,0,0.10606060606060606,1,Project Sprint Planning,Carol,The deployment Actually to AWS should happen next Monday March 25.,1
+13,2,4.3076923076923075,0,1,0,1,0.15384615384615385,0.0,0,0,0,0,0,0,0,0,0,0.04411764705882353,1,Project Sprint Planning,Bob,I will prepare the database schema and send it to Carol by Thursday.,1
+8,2,4.625,0,0,0,0,0.0,0.0,1,0,0,0,0,0,0,0,0,0.06818181818181818,1,Project Sprint Planning,Carol,"Up at Mount Wilson, the weather was perfect.",0
+11,2,4.181818181818182,0,0,1,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.05357142857142857,1,Project Sprint Planning,Carol,We decided to use React for the frontend instead of Vue.,1
+10,2,3.7,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.043478260869565216,2,Research Group Meeting,Frank,"Yeah, I think it's at noon in the common room.",0
+11,2,4.2727272727272725,0,0,0,1,0.0,0.0,0,1,0,0,0,0,0,0,0,0.12280701754385964,2,Research Group Meeting,Eve,The I mean paper submission deadline for ICML is June 15.,1
+10,2,5.3,0,1,0,1,0.1,0.0,0,0,0,0,0,0,0,0,0,0.016129032258064516,2,Research Group Meeting,Frank,I will complete the experimental results section by next week.,1
+16,3,4.1875,1,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.024390243902439025,2,Research Group Meeting,Eve,"Haha, the power of pizza. Oh also, has anyone tried the new cafe near the library?",0
+10,2,4.5,0,0,1,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.018518518518518517,2,Research Group Meeting,Hank,We decided to extend our dataset with the 2024 corpus.,1
+8,2,4.625,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.022727272727272728,2,Research Group Meeting,Hank,I prefer the one across the street honestly.,0
+8,2,3.25,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.06060606060606061,2,Research Group Meeting,Grace,"Oh, in that case I might show up.",0
+12,2,4.916666666666667,0,1,0,0,0.08333333333333333,0.08333333333333333,0,0,0,0,0,0,1,0,0,0.02857142857142857,2,Research Group Meeting,Grace,We need Um to revise the literature review based on reviewer feedback.,1
+9,2,5.0,0,0,0,0,0.0,0.1111111111111111,1,0,0,0,0,0,0,0,0,0.07547169811320754,2,Research Group Meeting,Eve,The collaboration with Um Stanford starts on May 1st.,1
+9,2,4.444444444444445,0,0,0,0,0.0,0.0,0,0,0,0,1,0,1,0,0,0.10416666666666667,2,Research Group Meeting,Eve,Let's agree on using BERT as our baseline model.,1
+9,2,5.0,0,0,0,0,0.0,0.1111111111111111,0,0,0,0,0,0,0,0,0,0.03773584905660377,2,Research Group Meeting,Frank,"Yes, You know their espresso is actually really good.",0
+12,2,6.0,0,1,0,0,0.09090909090909091,0.0,0,0,0,0,0,0,1,0,0,0.024096385542168676,2,Research Group Meeting,Frank,Action item: Grace will prepare the presentation slides for the department seminar.,1
+7,2,4.857142857142857,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.025,2,Research Group Meeting,Hank,I heard they're serving pizza this time.,0
+8,3,3.625,1,0,0,0,0.0,0.125,0,0,0,0,0,0,0,0,0,0.05555555555555555,2,Research Group Meeting,Eve,To each their own. So where were we?,0
+15,3,4.4,0,1,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.0875,2,Research Group Meeting,Hank,The budget I mean request for GPU compute time should be submitted to Dr. Smith.,1
+11,2,4.909090909090909,1,0,0,0,0.0,0.1,1,0,0,0,0,0,0,0,0,0.03125,2,Research Group Meeting,Eve,Did Actually anyone see the email about the faculty lunch today?,0
+11,2,3.272727272727273,0,0,0,0,0.0,0.1,0,0,0,0,0,0,0,0,0,0.043478260869565216,2,Research Group Meeting,Grace,"I might skip it, I have so much grading to do.",0
+12,2,4.333333333333333,0,0,0,1,0.0,0.08333333333333333,0,1,0,0,0,0,0,0,0,0.047619047619047616,3,Startup Team Standup,Bob,The mobile app Actually beta version will be ready by March 28.,1
+9,2,4.555555555555555,1,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.02040816326530612,3,Startup Team Standup,Eve,Has anyone been to that new ramen place downtown?,0
+13,2,4.076923076923077,0,1,0,1,0.15384615384615385,0.0,0,0,0,0,0,0,1,0,0,0.03076923076923077,3,Startup Team Standup,Eve,I will finalize the pitch deck and send it to everyone by Monday.,1
+10,3,4.1,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.06,3,Startup Team Standup,Eve,"Deal. Also, I saw a funny meme about startup life.",0
+6,2,5.0,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.02857142857142857,3,Startup Team Standup,Grace,We should all go together sometime.,0
+15,2,4.066666666666666,0,1,0,0,0.0,0.0,0,1,0,0,0,0,0,0,0,0.08,3,Startup Team Standup,Alice,The investor meeting I mean with Sequoia is scheduled for April 10 at 2 PM.,1
+14,2,4.357142857142857,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.02702702702702703,3,Startup Team Standup,Bob,We I mean need to decide on the pricing model before the investor meeting.,1
+8,2,5.125,0,0,1,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.020833333333333332,3,Startup Team Standup,Alice,We agreed to target the enterprise market first.,1
+6,2,3.5,0,1,0,0,0.16666666666666666,0.0,0,0,0,0,0,0,0,0,1,0.038461538461538464,3,Startup Team Standup,Bob,Send it in the group chat!,0
+8,2,5.5,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.0196078431372549,3,Startup Team Standup,Alice,"Definitely, maybe after we close the funding round.",0
+9,2,4.444444444444445,0,0,1,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.020833333333333332,3,Startup Team Standup,Eve,Let's go with the freemium model for the launch.,1
+12,2,5.25,0,1,0,0,0.0,0.09090909090909091,0,0,0,0,0,0,0,0,0,0.02702702702702703,3,Startup Team Standup,Grace,Action item: Um set up the demo environment for the investor presentation.,1
+14,3,4.714285714285714,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.0379746835443038,3,Startup Team Standup,Bob,"Not yet, but I heard it's amazing. Their tonkotsu is supposed to be incredible.",0
+8,2,4.125,1,0,0,0,0.0,0.25,1,0,0,0,0,0,0,0,0,0.05,3,Startup Team Standup,Grace,So Well what's the plan for lunch today?,0
+10,2,5.3,0,0,0,0,0.0,0.1,0,0,0,0,0,0,0,0,0,0.04838709677419355,3,Startup Team Standup,Alice,"I Actually brought leftovers, but I'm always down for takeout.",0
+8,2,5.625,0,1,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.019230769230769232,3,Startup Team Standup,Alice,The user testing results show 87% satisfaction rate.,1
+8,3,4.75,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.044444444444444446,4,Department Budget Review,Carol,"Those were the days. Anyway, back to numbers.",0
+13,2,5.461538461538462,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.024096385542168676,4,Department Budget Review,Frank,"The travel I mean budget should be increased to $120,000 for conference attendance.",1
+11,3,4.818181818181818,0,0,0,0,0.0,0.09090909090909091,1,0,0,0,0,0,0,0,0,0.031746031746031744,4,Department Budget Review,Carol,The Actually total budget for next fiscal year is $2.3 million.,1
+9,2,4.777777777777778,0,1,1,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.0784313725490196,4,Department Budget Review,Hank,"The grant from NSF for $500,000 has been confirmed.",1
+7,2,6.142857142857143,0,0,0,0,0.0,0.0,1,0,0,0,0,0,1,0,0,0.061224489795918366,4,Department Budget Review,Hank,"Oh yeah, Professor Thompson's famous tomato soup.",0
+8,2,5.0,0,0,0,0,0.0,0.125,1,0,0,0,0,0,0,0,0,0.0425531914893617,4,Department Budget Review,Dave,The Um pasta station is pretty decent actually.,0
+9,2,5.555555555555555,0,0,1,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.017241379310344827,4,Department Budget Review,Carol,We decided to prioritize hiring two new faculty positions.,1
+9,2,6.111111111111111,0,1,0,0,0.2222222222222222,0.0,0,0,0,0,0,0,0,0,0,0.015873015873015872,4,Department Budget Review,Frank,Let's schedule a follow-up meeting to finalize the allocations.,1
+7,2,4.857142857142857,1,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.025,4,Department Budget Review,Carol,Has anyone tried the new cafeteria menu?,0
+8,2,6.125,0,0,0,0,0.0,0.125,0,0,0,0,0,0,0,0,0,0.03571428571428571,4,Department Budget Review,Dave,"The software licenses So renewal costs $85,000 annually.",1
+9,2,4.777777777777778,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.0196078431372549,4,Department Budget Review,Dave,"We need to allocate $450,000 for new lab equipment.",1
+8,2,5.375,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.02,4,Department Budget Review,Dave,"Also, the parking situation is terrible this week.",0
+13,2,4.384615384615385,0,0,0,1,0.0,0.0,0,0,0,0,0,0,0,0,0,0.028985507246376812,4,Department Budget Review,Frank,"They're doing construction on lot B, it should be done by next month.",0
+12,2,3.6666666666666665,0,0,0,0,0.0,0.0,0,0,0,0,1,0,1,0,0,0.01818181818181818,4,Department Budget Review,Frank,I miss the old chef who used to make that amazing soup.,0
+14,2,4.571428571428571,0,1,0,1,0.07692307692307693,0.0,0,1,0,0,0,0,0,0,0,0.03896103896103896,4,Department Budget Review,Hank,Action item: Carol will prepare the budget proposal for the dean by April 15.,1
+10,2,5.1,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.016666666666666666,5,Student Club Meeting,Hank,I will handle the social media marketing starting next week.,1
+10,2,5.1,0,1,0,0,0.1,0.0,1,0,0,0,0,0,1,0,0,0.05,5,Student Club Meeting,Hank,We should contact Professor Kumar to be the keynote speaker.,1
+12,2,4.083333333333333,0,0,0,0,0.0,0.08333333333333333,0,0,0,0,0,0,0,0,0,0.05,5,Student Club Meeting,Bob,"I'm Actually down, there's a new burger place I want to try.",0
+11,2,5.2727272727272725,0,1,0,1,0.09090909090909091,0.09090909090909091,0,0,0,0,0,0,1,0,0,0.04411764705882353,5,Student Club Meeting,Bob,Action item: create Well the event registration form by this Friday.,1
+9,3,4.444444444444445,0,0,0,0,0.0,0.1111111111111111,1,0,0,0,0,0,0,0,0,0.0625,5,Student Club Meeting,Alice,Same here. Well Let's wrap this up quickly then.,0
+8,2,4.0,0,0,0,0,0.0,0.125,0,0,0,0,0,0,0,0,1,0.05128205128205128,5,Student Club Meeting,Hank,What a So comeback in the last quarter!,0
+14,2,3.5714285714285716,0,0,0,1,0.0,0.0,0,2,0,0,0,0,0,0,0,0.047619047619047616,5,Student Club Meeting,Alice,"The annual tech fest is on May 20, we need volunteers by May 1.",1
+4,2,3.25,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,1,1,0.0625,5,Student Club Meeting,Grace,Count me in too!,0
+9,3,5.0,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.03773584905660377,5,Student Club Meeting,Alice,Midterms are the worst. At least they're almost over.,0
+12,2,3.9166666666666665,0,0,1,0,0.0,0.08333333333333333,1,0,0,0,0,0,0,0,0,0.034482758620689655,5,Student Club Meeting,Grace,We Like agreed to include a hackathon as part of the fest.,1
+8,2,3.625,1,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.027777777777777776,5,Student Club Meeting,Grace,Did you all see the game last night?,0
+10,2,4.5,0,0,0,0,0.0,0.1111111111111111,0,0,0,0,0,0,0,0,0,0.05555555555555555,5,Student Club Meeting,Bob,"I couldn't Well watch it, I was studying for midterms.",0
+8,2,7.0,0,0,0,0,0.0,0.0,0,0,0,0,0,0,1,0,0,0.015873015873015872,5,Student Club Meeting,Bob,The sponsorship outreach to companies should start immediately.,1
+11,2,4.818181818181818,0,1,0,1,0.1,0.0,0,1,0,0,0,0,0,0,0,0.031746031746031744,5,Student Club Meeting,Alice,Let's confirm the venue booking for the auditorium by April 20.,1
+9,3,4.666666666666667,1,0,0,0,0.0,0.0,0,0,0,0,0,0,0,0,0,0.04,5,Student Club Meeting,Hank,True. Anyone want to grab food after this meeting?,0
+9,2,5.0,0,1,1,1,0.0,0.0,0,0,0,0,0,0,0,0,0,0.018867924528301886,5,Student Club Meeting,Grace,"The budget approved by the student council is $5,000.",1
